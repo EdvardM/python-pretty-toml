@@ -22,6 +22,12 @@ pip install --upgrade prettytoml
       fp.write(prettified_content)
 ```
 
+From command line, read STDIN and write to STDOUT:
+
+```bash
+python -m prettytoml < input.toml > output.toml
+```
+
 ## Formatting Rules ##
 
 * Entries within a single table should be ordered lexicographically by key
